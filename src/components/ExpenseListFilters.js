@@ -49,8 +49,8 @@ export class ExpenseListFilters extends React.Component {
           showClearDates={true}
           numberOfMonths={1}
           isOutsideRange={() => false}
-          startDateId="startDate"
-          endDateId="endDate"
+          startDateId="start"
+          endDateId="end"
         />
       </div>
     );
@@ -65,8 +65,8 @@ const mapDispatchToProps = (dispatch) => ({
   setTextFilter: (text) => dispatch(setTextFilter(text)),
   sortBydate: () => dispatch(sortByDate()),
   sortByAmount: () => dispatch(sortByAmount()),
-  setStartDate: (starDate) => dispatch(setStartDate(startDate)),
+  setStartDate: (startDate) => dispatch(setStartDate(startDate)),
   setEndDate: (endDate) => dispatch(setEndDate(endDate))
 });
 
-export default connect(mapStateToProps)(ExpenseListFilters);
+export default connect(mapStateToProps, mapDispatchToProps)(ExpenseListFilters);
