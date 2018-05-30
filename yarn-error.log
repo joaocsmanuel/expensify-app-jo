@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\joni_\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js test
+  C:\Program Files\nodejs\node.exe C:\Users\joni_\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js run test
 
 PATH: 
   C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\joni_\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\joni_\AppData\Roaming\npm
@@ -42,6 +42,7 @@ npm manifest:
       "express": "^4.16.3",
       "extract-text-webpack-plugin": "4.0.0-beta.0",
       "firebase": "5.0.3",
+      "history": "4.7.2",
       "moment": "2.22.1",
       "node-sass": "^4.9.0",
       "normalize.css": "^8.0.0",
@@ -3785,7 +3786,7 @@ Lockfile:
       hoek "4.x.x"
       sntp "2.x.x"
   
-  history@^4.7.2:
+  history@4.7.2, history@^4.7.2:
     version "4.7.2"
     resolved "https://registry.yarnpkg.com/history/-/history-4.7.2.tgz#22b5c7f31633c5b8021c7f4a8a954ac139ee8d5b"
     dependencies:
