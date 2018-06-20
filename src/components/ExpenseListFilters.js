@@ -63,10 +63,6 @@ export class ExpenseListFilters extends React.Component {
             />
           </div>
         </div>
-
-
-
-
       </div>
     );
   }
